@@ -1,0 +1,218 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <title>4. How to Extend &mdash; VeryWell 1 documentation</title>
+  
+
+  
+
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="../../../static/css/pdj.css" type="text/css" />
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../search.html"/>
+    <link rel="top" title="VeryWell 1 documentation" href="../../../index.html"/>
+        <link rel="next" title="5. Verification" href="../verification/verification.html"/>
+        <link rel="prev" title="3. API" href="../API/API.html"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="follow, all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+  </head>
+
+  <body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../../../index.html" class="fa fa-home"> VeryWell </a>
+        <div role="search">
+	  <form id ="rtd-search-form" class="wy-form"
+		action="../../../search.html" method="get">
+	    <input type="text" name="q" placeholder="Search docs" />
+	    <input type="hidden" name="check_keywords" value="yes" />
+	    <input type="hidden" name="area" value="default" />
+	  </form>
+	</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	
+          
+          
+              <p class="caption"><span class="caption-text">User Manual</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../user_manual/installation/installation.html">1. Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user_manual/usage/usage.html">2. Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/GI.html">2.1. GI: General Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/SIM.html">2.2. SIM: Structural Information Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/EVT.html">2.3. EVT: Event</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/FEM.html">2.4. FEM: Finite Element Method</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/UQ.html">2.5. UQ: Uncertainty Quantification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/DL.html">2.6. DL: Damage and Loss Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/RES.html">2.7. RES: Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/usage/buttons.html">2.8. Push Buttons</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../user_manual/requirements/requirements.html">3. Requirements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/requirements/requirements.html#general">3.1. General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/requirements/requirements.html#hazard">3.2. Hazard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/requirements/requirements.html#building-model">3.3. Building Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/requirements/requirements.html#analysis">3.4. Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/requirements/requirements.html#uncertainty-quantification">3.5. Uncertainty Quantification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/requirements/requirements.html#random-variables">3.6. Random Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../user_manual/requirements/requirements.html#engineering-demand-parameters">3.7. Engineering Demand Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../user_manual/troubleshooting/troubleshooting.html">4. Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user_manual/examples/examples.html">5. Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">6. Copyright and license</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../license.html#copyright">6.1. Copyright</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../license.html#bsd-3-caluse-license">6.2. BSD 3-Caluse license</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Manual</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../technical_manual/technical_manual.html">1. Technical Manual</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Manual</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../how_to_build/how_to_build.html">1. How to Build</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture/architecture.html">2. Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../API/API.html">3. API</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. How to Extend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../verification/verification.html">5. Verification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../coding_style/coding_style.html">6. Coding Style</a></li>
+</ul>
+
+          
+        
+
+      </div>
+      &nbsp;
+    </nav>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Porão do Juca</a>
+      </nav>
+
+      <div class="wy-nav-content">
+	<div class="fundo-claro">
+	</div>
+	<div class="fundo-escuro">
+	</div>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+	    
+	    <!-- <ul class="wy-breadcrumbs"> -->
+	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+
+	    <!--   <li>Features</li> -->
+	    <!--   <li class="wy-breadcrumbs-aside"> -->
+
+	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
+
+	    <!--   </li> -->
+	    <!-- </ul> -->
+	    <!-- <hr/> -->
+	  </div>
+
+          <div role="main" class="">
+
+	    <div id="content" class="hfeed entry-container hentry">
+  <div class="section" id="how-to-extend">
+<span id="lbl-how-to-extend"></span><h1><span class="section-number">4. </span>How to Extend<a class="headerlink" href="#how-to-extend" title="Permalink to this headline">¶</a></h1>
+</div>
+
+
+	    </div>
+            <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../verification/verification.html" class="btn btn-neutral float-right" title="5. Verification">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../API/API.html" class="btn btn-neutral" title="3. API"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, SimCenter.
+    </p>
+  </div>
+
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="http://poraodojuca.net">Porão do Juca</a>.
+
+</footer>
+	</div>
+	</div>
+	  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+    <script type="text/javascript" src="../../../static/jquery.js">
+
+    </script>
+    <script type="text/javascript" src="../../../static/underscore.js">
+
+    </script>
+    <script type="text/javascript" src="../../../static/doctools.js">
+
+    </script>
+    <script type="text/javascript" src="../../../static/language_data.js">
+
+    </script>
+
+  
+
+   <script type="text/javascript"
+           src="../../../static/js/theme.js"></script>
+
+   <script type="text/javascript"
+           src="../../../static/js/pdj.js"></script>
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+  </body>
+</html>
