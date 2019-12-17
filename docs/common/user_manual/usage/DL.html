@@ -1,64 +1,89 @@
 
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
   
-  <title>2.6. DL: Damage and Loss Model &mdash; VeryWell 1 documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-
+  <title>2.6. DL: Damage and Loss Model &mdash; VeryWell  documentation</title>
   
 
   
-
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="../../../static/css/pdj.css" type="text/css" />
-
+  
+  
   
 
   
-        <link rel="index" title="Index"
-              href="../../../genindex.html"/>
-        <link rel="search" title="Search" href="../../../search.html"/>
-    <link rel="top" title="VeryWell 1 documentation" href="../../../index.html"/>
-        <link rel="up" title="2. Usage" href="usage.html"/>
-        <link rel="next" title="2.7. RES: Results" href="RES.html"/>
-        <link rel="prev" title="2.5. UQ: Uncertainty Quantification" href="UQ.html"/>
+  <script type="text/javascript" src="../../../static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../static/jquery.js"></script>
+        <script type="text/javascript" src="../../../static/underscore.js"></script>
+        <script type="text/javascript" src="../../../static/doctools.js"></script>
+        <script type="text/javascript" src="../../../static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../static/js/theme.js"></script>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="cache-control" content="public" />
-    <meta name="robots" content="follow, all" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Add jQuery library -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    
 
-  </head>
+  
+  <link rel="stylesheet" href="../../../static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="2.7. RES: Results" href="RES.html" />
+    <link rel="prev" title="2.5. UQ: Uncertainty Quantification" href="UQ.html" /> 
+</head>
 
-  <body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
+    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-        <a href="../../../index.html" class="fa fa-home"> VeryWell </a>
-        <div role="search">
-	  <form id ="rtd-search-form" class="wy-form"
-		action="../../../search.html" method="get">
-	    <input type="text" name="q" placeholder="Search docs" />
-	    <input type="hidden" name="check_keywords" value="yes" />
-	    <input type="hidden" name="area" value="default" />
-	  </form>
-	</div>
-      </div>
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #F2F2F2" >
+          
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	
           
+            <a href="../../../index.html">
           
+
+          
+            
+            <img src="../../../static/SimCenter_PBE_logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
               <p class="caption"><span class="caption-text">User Manual</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../installation/installation.html">1. Installation</a></li>
@@ -68,28 +93,28 @@
 <li class="toctree-l2"><a class="reference internal" href="EVT.html">2.3. EVT: Event</a></li>
 <li class="toctree-l2"><a class="reference internal" href="FEM.html">2.4. FEM: Finite Element Method</a></li>
 <li class="toctree-l2"><a class="reference internal" href="UQ.html">2.5. UQ: Uncertainty Quantification</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">2.6. DL: Damage and Loss Model</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">2.6. DL: Damage and Loss Model</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fema-p58">FEMA P58</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#general-settings">General Settings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#building-components">Building Components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#collapse-modes">Collapse Modes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#hazus-mh">HAZUS MH</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">General Settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="RES.html">2.7. RES: Results</a></li>
 <li class="toctree-l2"><a class="reference internal" href="buttons.html">2.8. Push Buttons</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../requirements/requirements.html">3. Requirements</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#general">3.1. General</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#hazard">3.2. Hazard</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#building-model">3.3. Building Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#analysis">3.4. Analysis</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#uncertainty-quantification">3.5. Uncertainty Quantification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#random-variables">3.6. Random Variables</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#engineering-demand-parameters">3.7. Engineering Demand Parameters</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../requirements/requirements.html">3. Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../troubleshooting/troubleshooting.html">4. Troubleshooting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../examples/examples.html">5. Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../license.html">6. Copyright and license</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../license.html#copyright">6.1. Copyright</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../license.html#bsd-3-caluse-license">6.2. BSD 3-Caluse license</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">6. Copyright and license</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Technical Manual</span></p>
 <ul>
@@ -105,62 +130,88 @@
 <li class="toctree-l1"><a class="reference internal" href="../../developer_manual/coding_style/coding_style.html">6. Coding Style</a></li>
 </ul>
 
+            
           
-        
-
+        </div>
       </div>
-      &nbsp;
     </nav>
+
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="#">Porão do Juca</a>
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">VeryWell</a>
+        
       </nav>
 
+
       <div class="wy-nav-content">
-	<div class="fundo-claro">
-	</div>
-	<div class="fundo-escuro">
-	</div>
-
+        
         <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-	    
-	    <!-- <ul class="wy-breadcrumbs"> -->
-	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+        
+          
 
-	    <!--   <li>Features</li> -->
-	    <!--   <li class="wy-breadcrumbs-aside"> -->
 
-	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
 
-	    <!--   </li> -->
-	    <!-- </ul> -->
-	    <!-- <hr/> -->
-	  </div>
 
-          <div role="main" class="">
 
-	    <div id="content" class="hfeed entry-container hentry">
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="usage.html"><span class="section-number">2. </span>Usage</a> &raquo;</li>
+        
+      <li><span class="section-number">2.6. </span>DL: Damage and Loss Model</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../sources/common/user_manual/usage/DL.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
   <div class="section" id="dl-damage-and-loss-model">
 <h1><span class="section-number">2.6. </span>DL: Damage and Loss Model<a class="headerlink" href="#dl-damage-and-loss-model" title="Permalink to this headline">¶</a></h1>
-<p>The Damage and Loss panel provides users a convenient way to define the damage and loss model for the building. The dropdown list at the top of the panel allows users to choose between two loss-assessment methods: FEMA P58 <a href="#id1"><span class="problematic" id="id2">:cite:`applied_technology_council_atc_fema_2012`</span></a> and HAZUS MH <a href="#id3"><span class="problematic" id="id4">:cite:`federal_emergency_management_agency_fema_hazus_2018-2`</span></a>. The method chosen determines the information displayed in the rest of the panel. The two methods are discussed in the following sections.</p>
+<p>The Damage and Loss panel provides users a convenient way to define the damage and loss model for the building. The dropdown list at the top of the panel allows users to choose between two loss-assessment methods: FEMA P58 <a class="bibtex reference internal" href="#applied-technology-council-atc-fema-2012" id="id1">[ATC12]</a> and HAZUS MH <a class="bibtex reference internal" href="#federal-emergency-management-agency-fema-hazus-2018-2" id="id2">[FEM18]</a>. The method chosen determines the information displayed in the rest of the panel. The two methods are discussed in the following sections.</p>
 <div class="section" id="fema-p58">
 <h2>FEMA P58<a class="headerlink" href="#fema-p58" title="Permalink to this headline">¶</a></h2>
 <p>This option implements the loss assessment methodology described in the <a class="reference external" href="https://www.fema.gov/media-library/assets/documents/90380">FEMA P58</a> documents. The main panel is divided into four parts that can be accessed by clicking at the tabs at the top of the input panel.</p>
 <div class="section" id="general-settings">
 <h3>General Settings<a class="headerlink" href="#general-settings" title="Permalink to this headline">¶</a></h3>
-<p><code class="xref std std-numref docutils literal notranslate"><span class="pre">fig-dl-p58-general</span></code> shows the first panel, which corresponds to general damage and loss settings. The panel allows the user to set the response, damage, and loss models for the assessment.</p>
-<div class="align-center figure" id="id10">
+<p><a class="reference internal" href="#fig-dl-p58-general"><span class="std std-numref">Fig. 2.6.1</span></a> shows the first panel, which corresponds to general damage and loss settings. The panel allows the user to set the response, damage, and loss models for the assessment.</p>
+<div class="align-center figure" id="id8">
 <span id="fig-dl-p58-general"></span><img alt="../../../images/dl_p58_general.png" src="../../../images/dl_p58_general.png" />
-<p class="caption"><span class="caption-text">The General Damage and Loss Settings panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.1 </span><span class="caption-text">The General Damage and Loss Settings panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="response-model">
 <h4>Response Model<a class="headerlink" href="#response-model" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-right" id="id11" style="width: 300px">
+<div class="figure align-right" id="id9" style="width: 300px">
 <img alt="../../../images/dl_p58_general_response.png" src="../../../images/dl_p58_general_response.png" />
-<p class="caption"><span class="caption-text">Response model settings</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.2 </span><span class="caption-text">Response model settings</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 <p>Some text about the model</p>
 <p><strong>Response Description</strong></p>
@@ -186,9 +237,9 @@
 </div>
 <div class="section" id="damage-model">
 <h4>Damage Model<a class="headerlink" href="#damage-model" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-right" id="id12" style="width: 300px">
+<div class="figure align-right" id="id10" style="width: 300px">
 <img alt="../../../images/dl_p58_general_damage.png" src="../../../images/dl_p58_general_damage.png" />
-<p class="caption"><span class="caption-text">Damage model settings</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.3 </span><span class="caption-text">Damage model settings</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
 </div>
 <p><strong>Irrepairable Residual Drift</strong></p>
 <blockquote>
@@ -216,9 +267,9 @@
 </div>
 <div class="section" id="loss-model">
 <h4>Loss Model<a class="headerlink" href="#loss-model" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-right" id="id13" style="width: 300px">
+<div class="figure align-right" id="id11" style="width: 300px">
 <img alt="../../../images/dl_p58_general_loss.png" src="../../../images/dl_p58_general_loss.png" />
-<p class="caption"><span class="caption-text">Loss model settings</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.4 </span><span class="caption-text">Loss model settings</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </div>
 <p><strong>Replacement Cost and Time</strong></p>
 <blockquote>
@@ -248,10 +299,10 @@
 </div>
 <div class="section" id="building-components">
 <h3>Building Components<a class="headerlink" href="#building-components" title="Permalink to this headline">¶</a></h3>
-<p><code class="xref std std-numref docutils literal notranslate"><span class="pre">fig-dl-p58-comp</span></code> shows the input panel where you can define the components of the building.</p>
-<div class="align-center figure" id="id14">
+<p><a class="reference internal" href="#fig-dl-p58-comp"><span class="std std-numref">Fig. 2.6.5</span></a> shows the input panel where you can define the components of the building.</p>
+<div class="align-center figure" id="id12">
 <span id="fig-dl-p58-comp"></span><img alt="../../../images/dl_p58_comp.png" src="../../../images/dl_p58_comp.png" />
-<p class="caption"><span class="caption-text">The Component Settings panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.5 </span><span class="caption-text">The Component Settings panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="component-ensemble">
 <h4>Component Ensemble<a class="headerlink" href="#component-ensemble" title="Permalink to this headline">¶</a></h4>
@@ -279,9 +330,9 @@
 <div class="section" id="component-details">
 <h4>Component Details<a class="headerlink" href="#component-details" title="Permalink to this headline">¶</a></h4>
 <p>This panel provides more information about the active component in the drop-down menu under Selected components and allows you to specify where and what quantities of those components are in the building.</p>
-<div class="figure align-center" id="id15">
+<div class="figure align-center" id="id13">
 <span id="fig-dl-p58-comp-details"></span><img alt="../../../images/dl_p58_comp_details.png" src="../../../images/dl_p58_comp_details.png" />
-<p class="caption"><span class="caption-text">Component details</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.6 </span><span class="caption-text">Component details</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </div>
 <p><strong>Component Groups</strong></p>
 <blockquote>
@@ -310,15 +361,15 @@
 </dl>
 </div></blockquote>
 <p>As long as you want to assign the same amount of components to every floor and every direction, one component group row is sufficient. Oftentimes, you will want to have more control over component quantities because the amount of components is not identical in all floors and directions.</p>
-<p>The example in <code class="xref std std-numref docutils literal notranslate"><span class="pre">fig-dl-p58-comp-details</span></code> shows the assignment of Buckling Restrained Braces in a building. The first row assigns four BRBs in direction 1 to the first and second stories. The four braces are grouped in pairs (hence the <code class="docutils literal notranslate"><span class="pre">2,</span> <span class="pre">2</span></code> entry under <code class="docutils literal notranslate"><span class="pre">median</span> <span class="pre">quantity</span></code>). Damage to those two <em>Component Groups</em> can be evaluated independently. The second row assigns six braces to every floor in directon 2. These are also grouped in pairs, forming three <em>Component Groups</em>. Since the number of braces is known exactly, the <code class="docutils literal notranslate"><span class="pre">distribution</span></code> is set to <code class="docutils literal notranslate"><span class="pre">N/A</span></code> and there is no need to specifiy a <code class="docutils literal notranslate"><span class="pre">cov</span></code> value.</p>
+<p>The example in <a class="reference internal" href="#fig-dl-p58-comp-details"><span class="std std-numref">Fig. 2.6.6</span></a> shows the assignment of Buckling Restrained Braces in a building. The first row assigns four BRBs in direction 1 to the first and second stories. The four braces are grouped in pairs (hence the <code class="docutils literal notranslate"><span class="pre">2,</span> <span class="pre">2</span></code> entry under <code class="docutils literal notranslate"><span class="pre">median</span> <span class="pre">quantity</span></code>). Damage to those two <em>Component Groups</em> can be evaluated independently. The second row assigns six braces to every floor in directon 2. These are also grouped in pairs, forming three <em>Component Groups</em>. Since the number of braces is known exactly, the <code class="docutils literal notranslate"><span class="pre">distribution</span></code> is set to <code class="docutils literal notranslate"><span class="pre">N/A</span></code> and there is no need to specifiy a <code class="docutils literal notranslate"><span class="pre">cov</span></code> value.</p>
 </div>
 </div>
 <div class="section" id="collapse-modes">
 <h3>Collapse Modes<a class="headerlink" href="#collapse-modes" title="Permalink to this headline">¶</a></h3>
-<p><code class="xref std std-numref docutils literal notranslate"><span class="pre">fig-dl-p58-collmod</span></code> shows the input panel where you can specify the collapse modes of the building.</p>
-<div class="align-center figure" id="id16">
+<p><a class="reference internal" href="#fig-dl-p58-collmod"><span class="std std-numref">Fig. 2.6.7</span></a> shows the input panel where you can specify the collapse modes of the building.</p>
+<div class="align-center figure" id="id14">
 <span id="fig-dl-p58-collmod"></span><img alt="../../../images/dl_p58_collmod.png" src="../../../images/dl_p58_collmod.png" />
-<p class="caption"><span class="caption-text">The Collapse Modes panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.7 </span><span class="caption-text">The Collapse Modes panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
 </div>
 <p>Collapse modes provide information for the estimation of injuries from building collapse. As such, they are only used if injuries are among the requested Decision Variables. The following pieces of information are required for each collapse mode:</p>
 <blockquote>
@@ -340,11 +391,11 @@
 </div>
 <div class="section" id="dependencies">
 <h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
-<div class="figure align-right" id="id17" style="width: 400px">
+<div class="figure align-right" id="id15" style="width: 400px">
 <span id="fig-dl-p58-deps"></span><img alt="../../../images/dl_p58_deps.png" src="../../../images/dl_p58_deps.png" />
-<p class="caption"><span class="caption-text">The Collapse Modes panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.8 </span><span class="caption-text">The Collapse Modes panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </div>
-<p><code class="xref std std-numref docutils literal notranslate"><span class="pre">fig-dl-p58-deps</span></code> shows the fourth panel, which allows you to control the dependencies between various parts of the models.</p>
+<p><a class="reference internal" href="#fig-dl-p58-deps"><span class="std std-numref">Fig. 2.6.8</span></a> shows the fourth panel, which allows you to control the dependencies between various parts of the models.</p>
 <p>Every type of prescribed dependency assumes perfect correlation between a certain subset of the model variables and no correlation between the others. Future versions will expand on this approach by introducing more complex correlation structures.</p>
 <div class="section" id="logical-components">
 <h4>Logical components<a class="headerlink" href="#logical-components" title="Permalink to this headline">¶</a></h4>
@@ -402,18 +453,18 @@
 <div class="section" id="hazus-mh">
 <h2>HAZUS MH<a class="headerlink" href="#hazus-mh" title="Permalink to this headline">¶</a></h2>
 <p>This option implements the loss assessment methodology described in the <a class="reference external" href="https://www.fema.gov/media-library-data/20130726-1820-25045-6286/hzmh2_1_eq_tm.pdf">HAZUS MH Technical Manual</a> document.</p>
-<div class="section" id="id5">
-<h3>General Settings<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
-<p><code class="xref std std-numref docutils literal notranslate"><span class="pre">fig-dl-hazus-general</span></code> shows the input panel that allows the user to set the response, damage, and loss models for the assessment.</p>
-<div class="align-center figure" id="id18">
+<div class="section" id="id3">
+<h3>General Settings<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="#fig-dl-hazus-general"><span class="std std-numref">Fig. 2.6.9</span></a> shows the input panel that allows the user to set the response, damage, and loss models for the assessment.</p>
+<div class="align-center figure" id="id16">
 <span id="fig-dl-hazus-general"></span><img alt="../../../images/dl_hazus_general.png" src="../../../images/dl_hazus_general.png" />
-<p class="caption"><span class="caption-text">The General Damage and Loss Settings panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.9 </span><span class="caption-text">The General Damage and Loss Settings panel. (The settings shown in the Figure serve demonstration purposes and are not the suggested inputs.)</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
 </div>
-<div class="section" id="id6">
-<h4>Response Model<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-right" id="id19" style="width: 300px">
+<div class="section" id="id4">
+<h4>Response Model<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<div class="figure align-right" id="id17" style="width: 300px">
 <img alt="../../../images/dl_hazus_general_response.png" src="../../../images/dl_hazus_general_response.png" />
-<p class="caption"><span class="caption-text">Response model settings</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.10 </span><span class="caption-text">Response model settings</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
 </div>
 <p>Some text about the model</p>
 <p><strong>Response Description</strong></p>
@@ -437,11 +488,11 @@
 <p>Note: these limits will be used to consider EDP data as a set of censored samples when fitting the multivariate distribution set under Response Description. If the EDP distribution is set to empirical, this setting has no effect.</p>
 </div></blockquote>
 </div>
-<div class="section" id="id7">
-<h4>Damage Model<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-right" id="id20" style="width: 300px">
+<div class="section" id="id5">
+<h4>Damage Model<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<div class="figure align-right" id="id18" style="width: 300px">
 <img alt="../../../images/dl_hazus_general_damage.png" src="../../../images/dl_hazus_general_damage.png" />
-<p class="caption"><span class="caption-text">Damage model settings</span><a class="headerlink" href="#id20" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.11 </span><span class="caption-text">Damage model settings</span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
 </div>
 <p><strong>Structure Type and Design Level</strong></p>
 <blockquote>
@@ -449,11 +500,11 @@
 <p>Note: Any fragility or consequences function can be edited by the user and loaded by specifying a directory that contains those custom functions in the Custom DL data box at the bottom right. The loss calculations are performed at the local computer. Consequently, the locally available fragility and population data files can be used to perform the calculations even if the response simulations are done at DesignSafe.</p>
 </div></blockquote>
 </div>
-<div class="section" id="id8">
-<h4>Loss Model<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
-<div class="figure align-right" id="id21" style="width: 300px">
+<div class="section" id="id6">
+<h4>Loss Model<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<div class="figure align-right" id="id19" style="width: 300px">
 <img alt="../../../images/dl_hazus_general_loss.png" src="../../../images/dl_hazus_general_loss.png" />
-<p class="caption"><span class="caption-text">Loss model settings</span><a class="headerlink" href="#id21" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2.6.12 </span><span class="caption-text">Loss model settings</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </div>
 <p><strong>Replacement Cost and Time</strong></p>
 <blockquote>
@@ -486,78 +537,58 @@
 <div><p>The loss assessment is performed using fragility and loss data from the HAZUS Technical Manual. Each data source can be overridden by custom user-defined data.</p>
 </div></blockquote>
 </div></blockquote>
+<p id="bibtex-bibliography-common/user_manual/usage/DL-0"><dl class="citation">
+<dt class="bibtex label" id="applied-technology-council-atc-fema-2012"><span class="brackets"><a class="fn-backref" href="#id1">ATC12</a></span></dt>
+<dd><p>Applied Technology Council ATC, editor. <em>FEMA P58: Seismic Performance Assessment of Buildings - Methodology</em>. Volume 1. Federal Emergency Management Agency, 1 edition, 2012.</p>
+</dd>
+<dt class="bibtex label" id="federal-emergency-management-agency-fema-hazus-2018-2"><span class="brackets"><a class="fn-backref" href="#id2">FEM18</a></span></dt>
+<dd><p>Federal Emergency Management Agency FEMA, editor. <em>Hazus - MH 2.1 Earthquake Model Technical Manual</em>. Federal Emergency Management Agency, 2018.</p>
+</dd>
+</dl>
+</p>
 </div>
 </div>
 </div>
 </div>
 
 
-	    </div>
-            <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="RES.html" class="btn btn-neutral float-right" title="2.7. RES: Results">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="UQ.html" class="btn btn-neutral" title="2.5. UQ: Uncertainty Quantification"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
+           </div>
+           
+          </div>
+          <footer>
   
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, SimCenter.
+        &copy; Copyright 2019, SimCenter
+
     </p>
   </div>
-
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="http://poraodojuca.net">Porão do Juca</a>.
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-	</div>
-	</div>
-	  
 
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../../../',
-            VERSION:'1',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-    <script type="text/javascript" src="../../../static/jquery.js">
+        </div>
+      </div>
 
-    </script>
-    <script type="text/javascript" src="../../../static/underscore.js">
+    </section>
 
-    </script>
-    <script type="text/javascript" src="../../../static/doctools.js">
-
-    </script>
-    <script type="text/javascript" src="../../../static/language_data.js">
-
-    </script>
-
+  </div>
   
 
-   <script type="text/javascript"
-           src="../../../static/js/theme.js"></script>
 
-   <script type="text/javascript"
-           src="../../../static/js/pdj.js"></script>
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
-  </body>
+</body>
 </html>

@@ -1,64 +1,89 @@
 
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xml:lang="" lang="" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
   
-  <title>2.4. FEM: Finite Element Method &mdash; VeryWell 1 documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-
+  <title>2.4. FEM: Finite Element Method &mdash; VeryWell  documentation</title>
   
 
   
-
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="../../../static/css/pdj.css" type="text/css" />
-
+  
+  
   
 
   
-        <link rel="index" title="Index"
-              href="../../../genindex.html"/>
-        <link rel="search" title="Search" href="../../../search.html"/>
-    <link rel="top" title="VeryWell 1 documentation" href="../../../index.html"/>
-        <link rel="up" title="2. Usage" href="usage.html"/>
-        <link rel="next" title="2.5. UQ: Uncertainty Quantification" href="UQ.html"/>
-        <link rel="prev" title="2.3. EVT: Event" href="EVT.html"/>
+  <script type="text/javascript" src="../../../static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../static/jquery.js"></script>
+        <script type="text/javascript" src="../../../static/underscore.js"></script>
+        <script type="text/javascript" src="../../../static/doctools.js"></script>
+        <script type="text/javascript" src="../../../static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../static/js/theme.js"></script>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="cache-control" content="public" />
-    <meta name="robots" content="follow, all" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Add jQuery library -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    
 
-  </head>
+  
+  <link rel="stylesheet" href="../../../static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="2.5. UQ: Uncertainty Quantification" href="UQ.html" />
+    <link rel="prev" title="2.3. EVT: Event" href="EVT.html" /> 
+</head>
 
-  <body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
+    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-        <a href="../../../index.html" class="fa fa-home"> VeryWell </a>
-        <div role="search">
-	  <form id ="rtd-search-form" class="wy-form"
-		action="../../../search.html" method="get">
-	    <input type="text" name="q" placeholder="Search docs" />
-	    <input type="hidden" name="check_keywords" value="yes" />
-	    <input type="hidden" name="area" value="default" />
-	  </form>
-	</div>
-      </div>
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #F2F2F2" >
+          
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	
           
+            <a href="../../../index.html">
           
+
+          
+            
+            <img src="../../../static/SimCenter_PBE_logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
               <p class="caption"><span class="caption-text">User Manual</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../installation/installation.html">1. Installation</a></li>
@@ -73,23 +98,10 @@
 <li class="toctree-l2"><a class="reference internal" href="buttons.html">2.8. Push Buttons</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../requirements/requirements.html">3. Requirements</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#general">3.1. General</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#hazard">3.2. Hazard</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#building-model">3.3. Building Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#analysis">3.4. Analysis</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#uncertainty-quantification">3.5. Uncertainty Quantification</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#random-variables">3.6. Random Variables</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../requirements/requirements.html#engineering-demand-parameters">3.7. Engineering Demand Parameters</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../requirements/requirements.html">3. Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../troubleshooting/troubleshooting.html">4. Troubleshooting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../examples/examples.html">5. Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../license.html">6. Copyright and license</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../license.html#copyright">6.1. Copyright</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../license.html#bsd-3-caluse-license">6.2. BSD 3-Caluse license</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../license.html">6. Copyright and license</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Technical Manual</span></p>
 <ul>
@@ -105,116 +117,113 @@
 <li class="toctree-l1"><a class="reference internal" href="../../developer_manual/coding_style/coding_style.html">6. Coding Style</a></li>
 </ul>
 
+            
           
-        
-
+        </div>
       </div>
-      &nbsp;
     </nav>
+
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-      <nav class="wy-nav-top" id="barra-mobile" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="#">Porão do Juca</a>
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">VeryWell</a>
+        
       </nav>
 
+
       <div class="wy-nav-content">
-	<div class="fundo-claro">
-	</div>
-	<div class="fundo-escuro">
-	</div>
-
+        
         <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-	    
-	    <!-- <ul class="wy-breadcrumbs"> -->
-	    <!--   <li><a href="#">Docs</a> &raquo;</li> -->
+        
+          
 
-	    <!--   <li>Features</li> -->
-	    <!--   <li class="wy-breadcrumbs-aside"> -->
 
-	    <!-- 	<a href="_sources/index.txt" rel="nofollow"> View page source</a> -->
 
-	    <!--   </li> -->
-	    <!-- </ul> -->
-	    <!-- <hr/> -->
-	  </div>
 
-          <div role="main" class="">
 
-	    <div id="content" class="hfeed entry-container hentry">
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="usage.html"><span class="section-number">2. </span>Usage</a> &raquo;</li>
+        
+      <li><span class="section-number">2.4. </span>FEM: Finite Element Method</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../sources/common/user_manual/usage/FEM.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
   <div class="section" id="fem-finite-element-method">
 <h1><span class="section-number">2.4. </span>FEM: Finite Element Method<a class="headerlink" href="#fem-finite-element-method" title="Permalink to this headline">¶</a></h1>
 <p>Some text</p>
 </div>
 
 
-	    </div>
-            <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="UQ.html" class="btn btn-neutral float-right" title="2.5. UQ: Uncertainty Quantification">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="EVT.html" class="btn btn-neutral" title="2.3. EVT: Event"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
+           </div>
+           
+          </div>
+          <footer>
   
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, SimCenter.
+        &copy; Copyright 2019, SimCenter
+
     </p>
   </div>
-
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/jucacrispim/sphinx_pdj_theme">theme</a> provided by <a href="http://poraodojuca.net">Porão do Juca</a>.
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-	</div>
-	</div>
-	  
 
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../../../',
-            VERSION:'1',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-    <script type="text/javascript" src="../../../static/jquery.js">
+        </div>
+      </div>
 
-    </script>
-    <script type="text/javascript" src="../../../static/underscore.js">
+    </section>
 
-    </script>
-    <script type="text/javascript" src="../../../static/doctools.js">
-
-    </script>
-    <script type="text/javascript" src="../../../static/language_data.js">
-
-    </script>
-
+  </div>
   
 
-   <script type="text/javascript"
-           src="../../../static/js/theme.js"></script>
 
-   <script type="text/javascript"
-           src="../../../static/js/pdj.js"></script>
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
-  </body>
+</body>
 </html>
